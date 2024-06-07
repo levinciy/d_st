@@ -1,0 +1,97 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1717758812
+icon.svg::CompressedTexture2D::5272804354649142831::1708775765::1708776114::1::::<><>::
+main_scene.gd::GDScript::-1::1715425091::0::1::::<>Control<>::
+main_scene.tscn::PackedScene::8055148922047681253::1717756397::0::1::::<><>::res://it_tastes_like_SPRITE/right_looop.ogv<>res://main_scene.gd<>res://it_tastes_like_SPRITE/right_gif.ogv<>uid://fxrgpeh8cmpw::::res://it_tastes_like_SPRITE_matrix/buttons.tres<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf
+README.md::TextFile::-1::1712844949::0::1::::<><>::
+tasks.gd::GDScript::-1::1717649483::0::1::::tasks<>RefCounted<>::
+::res://advices/::1717756564
+1advice.tscn::PackedScene::2987578820607897409::1717756394::0::1::::<><>::uid://byf360m0jmpoc::::res://it_tastes_like_SPRITE_matrix/wallpapersden.com_cyberpunk-2077-yellow-background_1920x1080.jpg<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf
+2advice.tscn::PackedScene::3694769194446311099::1717756394::0::1::::<><>::uid://byf360m0jmpoc::::res://it_tastes_like_SPRITE_matrix/wallpapersden.com_cyberpunk-2077-yellow-background_1920x1080.jpg<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf
+3advice.tscn::PackedScene::39154982481975778::1717756394::0::1::::<><>::uid://byf360m0jmpoc::::res://it_tastes_like_SPRITE_matrix/wallpapersden.com_cyberpunk-2077-yellow-background_1920x1080.jpg<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf
+4advice.tscn::PackedScene::851890102570795465::1717756395::0::1::::<><>::uid://byf360m0jmpoc::::res://it_tastes_like_SPRITE_matrix/wallpapersden.com_cyberpunk-2077-yellow-background_1920x1080.jpg<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf
+5advice.tscn::PackedScene::6456732880721403765::1717756395::0::1::::<><>::uid://byf360m0jmpoc::::res://it_tastes_like_SPRITE_matrix/wallpapersden.com_cyberpunk-2077-yellow-background_1920x1080.jpg<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf
+6advice.tscn::PackedScene::5718597866888984083::1717756395::0::1::::<><>::uid://byf360m0jmpoc::::res://it_tastes_like_SPRITE_matrix/wallpapersden.com_cyberpunk-2077-yellow-background_1920x1080.jpg<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf
+7advice.tscn::PackedScene::8200359905530091919::1717756395::0::1::::<><>::uid://byf360m0jmpoc::::res://it_tastes_like_SPRITE_matrix/wallpapersden.com_cyberpunk-2077-yellow-background_1920x1080.jpg<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf
+8advice.tscn::PackedScene::8876565208540535978::1717756395::0::1::::<><>::uid://byf360m0jmpoc::::res://it_tastes_like_SPRITE_matrix/wallpapersden.com_cyberpunk-2077-yellow-background_1920x1080.jpg<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf
+9advice.tscn::PackedScene::7842293203532631797::1717756395::0::1::::<><>::uid://byf360m0jmpoc::::res://it_tastes_like_SPRITE_matrix/wallpapersden.com_cyberpunk-2077-yellow-background_1920x1080.jpg<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf
+10advice.tscn::PackedScene::932286600898160315::1717756395::0::1::::<><>::uid://byf360m0jmpoc::::res://it_tastes_like_SPRITE_matrix/wallpapersden.com_cyberpunk-2077-yellow-background_1920x1080.jpg<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf
+11advice.tscn::PackedScene::1453959843868297033::1717756395::0::1::::<><>::uid://byf360m0jmpoc::::res://it_tastes_like_SPRITE_matrix/wallpapersden.com_cyberpunk-2077-yellow-background_1920x1080.jpg<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf
+12advice.tscn::PackedScene::2963102176585724992::1717756395::0::1::::<><>::uid://byf360m0jmpoc::::res://it_tastes_like_SPRITE_matrix/wallpapersden.com_cyberpunk-2077-yellow-background_1920x1080.jpg<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf
+::res://it_tastes_like_SPRITE/::1717756564
+593448_movie.ogv::VideoStreamTheora::-1::1714913349::0::1::::<><>::
+bl_gr_abstract_background.jpg::CompressedTexture2D::6037298360470764152::1714913349::1714913368::1::::<><>::
+buttons.tres::Theme::399468604565705924::1714920764::0::1::::<><>::uid://d2msq18r3olfy::::res://it_tastes_like_SPRITE/Group 9.png
+check_box.tres::Theme::7107451387170838111::1714913627::0::1::::<><>::uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf<>uid://53xhb4s0rog2::::res://it_tastes_like_SPRITE/disabled.png<>uid://qhcwh6n4lujt::::res://it_tastes_like_SPRITE/Screenshot from 2024-05-03 10-01-19.png<>uid://xaft412exkei::::res://it_tastes_like_SPRITE/Screenshot from 2024-05-03 10-01-50.png
+disabled.png::CompressedTexture2D::2164876975820217015::1714913349::1714913367::1::::<><>::
+Group 9.png::CompressedTexture2D::9080256258323201790::1714913349::1714913367::1::::<><>::
+IOthemes.tres::Theme::4900348566262849045::1714913349::0::1::::<><>::
+Polygon 3.png::CompressedTexture2D::1652902329453097336::1714925029::1714925120::1::::<><>::
+Polygon 13.png::CompressedTexture2D::4808501533339480910::1714925029::1714925120::1::::<><>::
+Rectangle 2.png::CompressedTexture2D::8797286361709943956::1714913349::1714913367::1::::<><>::
+right_gif.ogv::VideoStreamTheora::-1::1714913571::0::1::::<><>::
+right_glitch.ogv::VideoStreamTheora::-1::1714913349::0::1::::<><>::
+right_looop.ogv::VideoStreamTheora::-1::1714913571::0::1::::<><>::
+Screenshot from 2024-05-03 10-01-19.png::CompressedTexture2D::1137633280120635165::1714913349::1714913367::1::::<><>::
+Screenshot from 2024-05-03 10-01-50.png::CompressedTexture2D::1614682483297856656::1714913349::1714913367::1::::<><>::
+Screenshot from 2024-05-05 18-58-22.png::CompressedTexture2D::4959133395841668908::1714913571::1714913603::1::::<><>::
+untitled.ogv::VideoStreamTheora::-1::1714913571::0::1::::<><>::
+Vector2.png::CompressedTexture2D::6531853887525605148::1714913349::1714913367::1::::<><>::
+Vector.png::CompressedTexture2D::4464608723647965785::1714913349::1714913367::1::::<><>::
+wallpapersden.com_cyberpunk-2077-yellow-background_1920x1080.jpg::CompressedTexture2D::4083031587954498602::1714913349::1714913368::1::::<><>::
+wrong_glitch.ogv::VideoStreamTheora::-1::1714913349::0::1::::<><>::
+::res://it_tastes_like_SPRITE/refinery-25-semi-bold-maisfontes.fbec/::1717756564
+refinery-25-semi-bold.ttf::FontFile::2274258876589207604::1714913349::1714913367::1::::<><>::
+::res://it_tastes_like_SPRITE_matrix/::1717756565
+593448_movie.ogv::VideoStreamTheora::-1::1714920764::0::1::::<><>::
+bl_gr_abstract_background.jpg::CompressedTexture2D::6037298360470764152::1714920764::1714920771::1::::<><>::
+buttons.tres::Theme::399468604565705924::1717756361::0::1::::<><>::uid://d2msq18r3olfy::::res://it_tastes_like_SPRITE_matrix/Group 9.png
+check_box.tres::Theme::7107451387170838111::1717756361::0::1::::<><>::uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf<>uid://53xhb4s0rog2::::res://it_tastes_like_SPRITE_matrix/disabled.png<>uid://qhcwh6n4lujt::::res://it_tastes_like_SPRITE_matrix/Screenshot from 2024-05-03 10-01-19.png<>uid://xaft412exkei::::res://it_tastes_like_SPRITE_matrix/Screenshot from 2024-05-03 10-01-50.png
+disabled.png::CompressedTexture2D::2164876975820217015::1714920764::1714920770::1::::<><>::
+Group 9.png::CompressedTexture2D::9080256258323201790::1714925029::1714925120::1::::<><>::
+IOthemes.tres::Theme::4900348566262849045::1714920764::0::1::::<><>::
+level_looop.ogv::VideoStreamTheora::-1::1714920764::0::1::::<><>::
+matrxlp.ogv::VideoStreamTheora::-1::1714925029::0::1::::<><>::
+matrx_looop.ogv::VideoStreamTheora::-1::1714920764::0::1::::<><>::
+Rectangle 2.png::CompressedTexture2D::8797286361709943956::1714920764::1714920770::1::::<><>::
+right_gif.ogv::VideoStreamTheora::-1::1714920764::0::1::::<><>::
+right_glitch.ogv::VideoStreamTheora::-1::1714920764::0::1::::<><>::
+right_looop.ogv::VideoStreamTheora::-1::1714920765::0::1::::<><>::
+Screenshot from 2024-05-03 10-01-19.png::CompressedTexture2D::1137633280120635165::1714920764::1714920770::1::::<><>::
+Screenshot from 2024-05-03 10-01-50.png::CompressedTexture2D::1614682483297856656::1714920764::1714920770::1::::<><>::
+Screenshot from 2024-05-05 18-58-22.png::CompressedTexture2D::4959133395841668908::1714920764::1714920771::1::::<><>::
+untitled.ogv::VideoStreamTheora::-1::1714920765::0::1::::<><>::
+Vector2.png::CompressedTexture2D::6531853887525605148::1714920764::1714920770::1::::<><>::
+Vector.png::CompressedTexture2D::4464608723647965785::1714920764::1714920770::1::::<><>::
+wallpapersden.com_cyberpunk-2077-yellow-background_1920x1080.jpg::CompressedTexture2D::4083031587954498602::1714920765::1714920771::1::::<><>::
+wrong_glitch.ogv::VideoStreamTheora::-1::1714920765::0::1::::<><>::
+::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/::1717756565
+refinery-25-semi-bold.ttf::FontFile::2274258876589207604::1714920764::1714925029::1::::<><>::
+::res://level_scenes/::1717756565
+1level.gd::GDScript::-1::1714920765::0::1::::<>Control<>::
+1level.tscn::PackedScene::1112106516211217849::1717756396::0::1::::<><>::res://level_scenes/1level.gd<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf
+2level.gd::GDScript::-1::1717756394::0::1::::<>Control<>::
+2level.tscn::PackedScene::808606593241334890::1717756396::0::1::::<><>::res://level_scenes/2level.gd<>uid://fxrgpeh8cmpw::::res://it_tastes_like_SPRITE_matrix/buttons.tres<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf<>uid://dxlqaymo7br1u::::res://it_tastes_like_SPRITE_matrix/Rectangle 2.png<>uid://d2msq18r3olfy::::res://it_tastes_like_SPRITE_matrix/Group 9.png<>uid://c8i5xk68yki12::::res://it_tastes_like_SPRITE_matrix/check_box.tres
+3level.gd::GDScript::-1::1714920765::0::1::::<>Control<>::
+3level.tscn::PackedScene::7688474256177524110::1717756396::0::1::::<><>::res://level_scenes/3level.gd<>uid://fxrgpeh8cmpw::::res://it_tastes_like_SPRITE_matrix/buttons.tres<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf<>uid://dxlqaymo7br1u::::res://it_tastes_like_SPRITE_matrix/Rectangle 2.png<>uid://d2msq18r3olfy::::res://it_tastes_like_SPRITE_matrix/Group 9.png
+4level.gd::GDScript::-1::1714920765::0::1::::<>Control<>::
+4level.tscn::PackedScene::5446572461426921274::1717756396::0::1::::<><>::res://level_scenes/4level.gd<>uid://c0ccxdf0d4sr1::::res://it_tastes_like_SPRITE_matrix/Vector2.png<>uid://fxrgpeh8cmpw::::res://it_tastes_like_SPRITE_matrix/buttons.tres<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf<>uid://dxlqaymo7br1u::::res://it_tastes_like_SPRITE_matrix/Rectangle 2.png<>res://it_tastes_like_SPRITE/wrong_glitch.ogv<>res://it_tastes_like_SPRITE/right_glitch.ogv
+5level.gd::GDScript::-1::1714920765::0::1::::<>Control<>::
+5level.tscn::PackedScene::8284640784955390427::1717756396::0::1::::<><>::res://level_scenes/5level.gd<>res://it_tastes_like_SPRITE/wrong_glitch.ogv<>res://it_tastes_like_SPRITE/right_glitch.ogv<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf<>uid://dxlqaymo7br1u::::res://it_tastes_like_SPRITE_matrix/Rectangle 2.png<>uid://c8i5xk68yki12::::res://it_tastes_like_SPRITE_matrix/check_box.tres<>uid://fxrgpeh8cmpw::::res://it_tastes_like_SPRITE_matrix/buttons.tres<>uid://d2msq18r3olfy::::res://it_tastes_like_SPRITE_matrix/Group 9.png
+6level.gd::GDScript::-1::1714920765::0::1::::<>Control<>::
+6level.tscn::PackedScene::5446572461426921274::1717756397::0::1::::<><>::res://level_scenes/6level.gd<>uid://fxrgpeh8cmpw::::res://it_tastes_like_SPRITE_matrix/buttons.tres<>res://it_tastes_like_SPRITE/wrong_glitch.ogv<>res://it_tastes_like_SPRITE/right_glitch.ogv<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf<>uid://dxlqaymo7br1u::::res://it_tastes_like_SPRITE_matrix/Rectangle 2.png<>uid://d2msq18r3olfy::::res://it_tastes_like_SPRITE_matrix/Group 9.png
+7level.gd::GDScript::-1::1714920765::0::1::::<>Control<>::
+7level.tscn::PackedScene::8749726977999459987::1717756397::0::1::::<><>::res://level_scenes/7level.gd<>uid://fxrgpeh8cmpw::::res://it_tastes_like_SPRITE_matrix/buttons.tres<>res://it_tastes_like_SPRITE/wrong_glitch.ogv<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf<>res://it_tastes_like_SPRITE/right_glitch.ogv<>uid://dxlqaymo7br1u::::res://it_tastes_like_SPRITE_matrix/Rectangle 2.png<>uid://d2msq18r3olfy::::res://it_tastes_like_SPRITE_matrix/Group 9.png
+8level.gd::GDScript::-1::1714920765::0::1::::<>Control<>::
+8level.tscn::PackedScene::5148114035396003450::1717756397::0::1::::<><>::res://level_scenes/8level.gd<>uid://fxrgpeh8cmpw::::res://it_tastes_like_SPRITE_matrix/buttons.tres<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf<>uid://dxlqaymo7br1u::::res://it_tastes_like_SPRITE_matrix/Rectangle 2.png<>uid://d2msq18r3olfy::::res://it_tastes_like_SPRITE_matrix/Group 9.png
+9level.gd::GDScript::-1::1714920765::0::1::::<>Control<>::
+9level.tscn::PackedScene::8529809510958556375::1717756396::0::1::::<><>::res://level_scenes/9level.gd<>uid://fxrgpeh8cmpw::::res://it_tastes_like_SPRITE_matrix/buttons.tres<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf<>uid://dxlqaymo7br1u::::res://it_tastes_like_SPRITE_matrix/Rectangle 2.png<>uid://d2msq18r3olfy::::res://it_tastes_like_SPRITE_matrix/Group 9.png
+10level.gd::GDScript::-1::1714920765::0::1::::<>Control<>::
+10level.tscn::PackedScene::8744374403750033653::1717756396::0::1::::<><>::res://level_scenes/10level.gd<>uid://fxrgpeh8cmpw::::res://it_tastes_like_SPRITE_matrix/buttons.tres<>res://it_tastes_like_SPRITE/wrong_glitch.ogv<>res://it_tastes_like_SPRITE/right_glitch.ogv<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf<>uid://dxlqaymo7br1u::::res://it_tastes_like_SPRITE_matrix/Rectangle 2.png<>uid://d2msq18r3olfy::::res://it_tastes_like_SPRITE_matrix/Group 9.png<>uid://c8i5xk68yki12::::res://it_tastes_like_SPRITE_matrix/check_box.tres
+11level.gd::GDScript::-1::1714920765::0::1::::<>Control<>::
+11level.tscn::PackedScene::2262181023295702186::1717756396::0::1::::<><>::res://level_scenes/11level.gd<>res://it_tastes_like_SPRITE/wrong_glitch.ogv<>uid://fxrgpeh8cmpw::::res://it_tastes_like_SPRITE_matrix/buttons.tres<>res://it_tastes_like_SPRITE/right_glitch.ogv<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf<>uid://dxlqaymo7br1u::::res://it_tastes_like_SPRITE_matrix/Rectangle 2.png<>uid://d2msq18r3olfy::::res://it_tastes_like_SPRITE_matrix/Group 9.png<>uid://c8i5xk68yki12::::res://it_tastes_like_SPRITE_matrix/check_box.tres
+12level.gd::GDScript::-1::1714920765::0::1::::<>Control<>::
+12level.tscn::PackedScene::8854448920496775520::1717756396::0::1::::<><>::res://level_scenes/12level.gd<>uid://fxrgpeh8cmpw::::res://it_tastes_like_SPRITE_matrix/buttons.tres<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf<>uid://dxlqaymo7br1u::::res://it_tastes_like_SPRITE_matrix/Rectangle 2.png<>uid://d2msq18r3olfy::::res://it_tastes_like_SPRITE_matrix/Group 9.png
+level_sample.gd::GDScript::-1::1715425091::0::1::::<>Control<>::
+level_sample.tscn::PackedScene::7853457043393398081::1717756395::0::1::::<><>::res://level_scenes/level_sample.gd<>uid://byf360m0jmpoc::::res://it_tastes_like_SPRITE_matrix/wallpapersden.com_cyberpunk-2077-yellow-background_1920x1080.jpg<>uid://carjk2j185ts5::::res://it_tastes_like_SPRITE/Polygon 13.png<>uid://dxlqaymo7br1u::::res://it_tastes_like_SPRITE_matrix/Rectangle 2.png<>uid://c0ccxdf0d4sr1::::res://it_tastes_like_SPRITE_matrix/Vector2.png<>uid://b4uxpoecxunrt::::res://it_tastes_like_SPRITE_matrix/Vector.png<>uid://7nwygn2tc1wa::::res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf<>uid://xsxcbhj3niro::::res://it_tastes_like_SPRITE/Polygon 3.png
+Panel.gd::GDScript::-1::1713870740::0::1::::<>Panel<>::

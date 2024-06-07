@@ -1,0 +1,48 @@
+[gd_scene load_steps=6 format=3 uid="uid://dm08ejrme5fof"]
+
+[ext_resource type="VideoStream" path="res://it_tastes_like_SPRITE/right_looop.ogv" id="1_3yeu5"]
+[ext_resource type="Script" path="res://main_scene.gd" id="1_chhuu"]
+[ext_resource type="VideoStream" path="res://it_tastes_like_SPRITE/right_gif.ogv" id="1_jkeie"]
+[ext_resource type="Theme" uid="uid://fxrgpeh8cmpw" path="res://it_tastes_like_SPRITE_matrix/buttons.tres" id="4_yxncm"]
+[ext_resource type="FontFile" uid="uid://7nwygn2tc1wa" path="res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf" id="5_dnrap"]
+
+[node name="MainScene" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_chhuu")
+
+[node name="VideoStreamPlayer2" type="VideoStreamPlayer" parent="."]
+layout_mode = 0
+offset_right = 2000.0
+offset_bottom = 880.0
+stream = ExtResource("1_3yeu5")
+loop = true
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 196.0
+offset_top = 279.0
+offset_right = 567.0
+offset_bottom = 356.0
+theme = ExtResource("4_yxncm")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0.67451, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0.690196, 0, 1)
+theme_override_colors/font_focus_color = Color(0.858824, 0.164706, 0.670588, 1)
+theme_override_fonts/font = ExtResource("5_dnrap")
+theme_override_font_sizes/font_size = 42
+text = "Начать"
+icon_alignment = 1
+expand_icon = true
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+stream = ExtResource("1_jkeie")
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

@@ -1,0 +1,127 @@
+[gd_scene load_steps=6 format=3 uid="uid://dyffqk7wa7fam"]
+
+[ext_resource type="Script" path="res://level_scenes/12level.gd" id="1_f1n8i"]
+[ext_resource type="Theme" uid="uid://fxrgpeh8cmpw" path="res://it_tastes_like_SPRITE_matrix/buttons.tres" id="2_kd82h"]
+[ext_resource type="FontFile" uid="uid://7nwygn2tc1wa" path="res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf" id="3_dxcqc"]
+[ext_resource type="Texture2D" uid="uid://dxlqaymo7br1u" path="res://it_tastes_like_SPRITE_matrix/Rectangle 2.png" id="4_8iqfv"]
+[ext_resource type="Texture2D" uid="uid://d2msq18r3olfy" path="res://it_tastes_like_SPRITE_matrix/Group 9.png" id="5_rwcn2"]
+
+[node name="12level" type="Control"]
+layout_mode = 3
+anchor_left = 0.2
+anchor_top = 0.256
+anchor_right = 0.825
+anchor_bottom = 0.728
+offset_top = -0.320007
+offset_bottom = -0.160034
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_f1n8i")
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 187.0
+offset_top = 158.0
+offset_right = 412.0
+offset_bottom = 202.0
+theme = ExtResource("2_kd82h")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0.639216, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0.603922, 0, 1)
+theme_override_colors/font_focus_color = Color(0.745098, 0.0627451, 0.623529, 1)
+theme_override_fonts/font = ExtResource("3_dxcqc")
+theme_override_font_sizes/font_size = 21
+text = "Сброс"
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 422.0
+offset_top = 158.0
+offset_right = 634.0
+offset_bottom = 202.0
+theme = ExtResource("2_kd82h")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0.67451, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0.690196, 0, 1)
+theme_override_colors/font_focus_color = Color(0.858824, 0.164706, 0.670588, 1)
+theme_override_fonts/font = ExtResource("3_dxcqc")
+theme_override_font_sizes/font_size = 21
+text = "Подтвердить"
+icon_alignment = 1
+expand_icon = true
+
+[node name="input_1" type="TextEdit" parent="."]
+layout_mode = 0
+offset_left = 240.0
+offset_top = 93.0
+offset_right = 570.0
+offset_bottom = 146.0
+theme_override_colors/font_color = Color(0.670588, 0.952941, 0.988235, 1)
+theme_override_fonts/font = ExtResource("3_dxcqc")
+theme_override_font_sizes/font_size = 30
+
+[node name="Rectangle3" type="Sprite2D" parent="input_1"]
+position = Vector2(165.5, 26)
+scale = Vector2(0.577193, 0.590909)
+texture = ExtResource("4_8iqfv")
+
+[node name="Rectangle2" type="Sprite2D" parent="."]
+position = Vector2(404, 270)
+scale = Vector2(1.0386, 1.13636)
+texture = ExtResource("4_8iqfv")
+
+[node name="output_1" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 122.0
+offset_top = 234.0
+offset_right = 681.0
+offset_bottom = 312.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("3_dxcqc")
+theme_override_font_sizes/normal_font_size = 28
+
+[node name="Group9" type="Sprite2D" parent="."]
+position = Vector2(417.79, 54.75)
+scale = Vector2(0.423809, 0.42381)
+texture = ExtResource("5_rwcn2")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Group9"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -523.819
+offset_top = -89.6629
+offset_right = -51.8195
+offset_bottom = 10.3371
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("3_dxcqc")
+theme_override_font_sizes/normal_font_size = 54
+text = "Введите вектор функции"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -242.0
+offset_top = -324.0
+offset_right = 262.0
+offset_bottom = -248.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("3_dxcqc")
+theme_override_font_sizes/normal_font_size = 74
+text = "Минимизация ДНФ"
+
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="text_changed" from="input_1" to="." method="_on_input_1_text_changed"]

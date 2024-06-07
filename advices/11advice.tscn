@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=3 uid="uid://uykrhf1naald"]
+
+[ext_resource type="Texture2D" uid="uid://byf360m0jmpoc" path="res://it_tastes_like_SPRITE_matrix/wallpapersden.com_cyberpunk-2077-yellow-background_1920x1080.jpg" id="1_oeeo4"]
+[ext_resource type="FontFile" uid="uid://7nwygn2tc1wa" path="res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf" id="2_f8m4t"]
+
+[node name="11Advice" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 195.0
+offset_top = 106.0
+offset_right = -210.0
+offset_bottom = -114.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Wallpapersden_comCyberpunk-2077-yellow-background1920x1080" type="Sprite2D" parent="."]
+position = Vector2(437, 250.75)
+scale = Vector2(0.454167, 0.456019)
+texture = ExtResource("1_oeeo4")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 49.0
+offset_right = 823.0
+offset_bottom = 417.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("2_f8m4t")
+theme_override_font_sizes/normal_font_size = 32
+text = "Необходимо определить, является ли система векторов функций полной, и, если не является, выбрать предполные классы, которым она принадлежит.
+Сначала вам нужно ввести число аргументов функции в соответствующем окне, затем нажать \"сгенерировать вектор\", для этого вектора выбрать правильный вариант: либо полная система, либо все его предполные классы."

@@ -1,0 +1,162 @@
+[gd_scene load_steps=10 format=3 uid="uid://cjumiuds0dnkk"]
+
+[ext_resource type="Script" path="res://level_scenes/4level.gd" id="1_jtg7e"]
+[ext_resource type="Texture2D" uid="uid://c0ccxdf0d4sr1" path="res://it_tastes_like_SPRITE_matrix/Vector2.png" id="2_exbs8"]
+[ext_resource type="Theme" uid="uid://fxrgpeh8cmpw" path="res://it_tastes_like_SPRITE_matrix/buttons.tres" id="2_ove5g"]
+[ext_resource type="FontFile" uid="uid://7nwygn2tc1wa" path="res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf" id="3_37m0e"]
+[ext_resource type="Texture2D" uid="uid://dxlqaymo7br1u" path="res://it_tastes_like_SPRITE_matrix/Rectangle 2.png" id="4_qhwvs"]
+[ext_resource type="VideoStream" path="res://it_tastes_like_SPRITE/wrong_glitch.ogv" id="6_l50o4"]
+[ext_resource type="VideoStream" path="res://it_tastes_like_SPRITE/right_glitch.ogv" id="7_cyokk"]
+
+[sub_resource type="Theme" id="Theme_fj8lg"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_o6t7t"]
+texture = ExtResource("4_qhwvs")
+
+[node name="4Level" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 256.0
+offset_top = 184.0
+offset_right = 1056.0
+offset_bottom = 524.0
+script = ExtResource("1_jtg7e")
+
+[node name="wrong_glitch" type="VideoStreamPlayer" parent="."]
+visible = false
+layout_mode = 0
+offset_left = -256.0
+offset_top = -184.0
+offset_right = 1024.0
+offset_bottom = 616.0
+stream = ExtResource("6_l50o4")
+
+[node name="right_glitch" type="VideoStreamPlayer" parent="."]
+visible = false
+layout_mode = 0
+offset_left = -256.0
+offset_top = -184.0
+offset_right = 1024.0
+offset_bottom = 616.0
+stream = ExtResource("7_cyokk")
+
+[node name="choose_name" type="OptionButton" parent="."]
+layout_mode = 0
+offset_left = 495.0
+offset_top = 29.0
+offset_right = 745.0
+offset_bottom = 82.0
+theme = SubResource("Theme_fj8lg")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_disabled_color = Color(0, 0, 0, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_37m0e")
+theme_override_font_sizes/font_size = 20
+theme_override_icons/arrow = ExtResource("2_exbs8")
+theme_override_styles/normal = SubResource("StyleBoxTexture_o6t7t")
+theme_override_styles/hover = SubResource("StyleBoxTexture_o6t7t")
+theme_override_styles/pressed = SubResource("StyleBoxTexture_o6t7t")
+
+[node name="again" type="Button" parent="."]
+layout_mode = 0
+offset_left = 187.0
+offset_top = 158.0
+offset_right = 412.0
+offset_bottom = 202.0
+theme = ExtResource("2_ove5g")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0.639216, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0.603922, 0, 1)
+theme_override_colors/font_focus_color = Color(0.745098, 0.0627451, 0.623529, 1)
+theme_override_fonts/font = ExtResource("3_37m0e")
+theme_override_font_sizes/font_size = 21
+text = "Сброс"
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 422.0
+offset_top = 158.0
+offset_right = 634.0
+offset_bottom = 202.0
+theme = ExtResource("2_ove5g")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0.67451, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0.690196, 0, 1)
+theme_override_colors/font_focus_color = Color(0.858824, 0.164706, 0.670588, 1)
+theme_override_fonts/font = ExtResource("3_37m0e")
+theme_override_font_sizes/font_size = 21
+text = "Подтвердить"
+icon_alignment = 1
+expand_icon = true
+
+[node name="Rectangle2" type="Sprite2D" parent="."]
+position = Vector2(404, 270)
+scale = Vector2(1.0386, 1.13636)
+texture = ExtResource("4_qhwvs")
+
+[node name="output_1" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 122.0
+offset_top = 234.0
+offset_right = 681.0
+offset_bottom = 299.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("3_37m0e")
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 96.0
+offset_top = 94.0
+offset_right = 426.0
+offset_bottom = 138.0
+theme = ExtResource("2_ove5g")
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0.67451, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0.690196, 0, 1)
+theme_override_colors/font_focus_color = Color(0.858824, 0.164706, 0.670588, 1)
+theme_override_fonts/font = ExtResource("3_37m0e")
+theme_override_font_sizes/font_size = 21
+text = "Сгенерировать вектор функции"
+icon_alignment = 1
+expand_icon = true
+
+[node name="Rectangle3" type="Sprite2D" parent="."]
+position = Vector2(261, 55.5)
+scale = Vector2(0.578947, 0.602273)
+texture = ExtResource("4_qhwvs")
+
+[node name="output_2" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 110.0
+offset_top = 43.0
+offset_right = 412.0
+offset_bottom = 82.0
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("3_37m0e")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -387.0
+offset_top = -322.0
+offset_right = 454.0
+offset_bottom = -244.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/default_color = Color(0, 0, 0, 1)
+theme_override_fonts/normal_font = ExtResource("3_37m0e")
+theme_override_font_sizes/normal_font_size = 74
+text = "Игра: функция от 2 аргументов"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]

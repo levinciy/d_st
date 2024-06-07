@@ -1,0 +1,41 @@
+[gd_scene load_steps=3 format=3 uid="uid://cotmiklg46bps"]
+
+[ext_resource type="Texture2D" uid="uid://chegk14kr8w3h" path="res://icon.svg" id="1_xs64u"]
+[ext_resource type="Script" path="res://level_scenes/1level.gd" id="1_ymrxb"]
+
+[node name="Control" type="Panel"]
+anchors_preset = -1
+anchor_right = 0.624
+anchor_bottom = 0.439
+offset_right = 0.279968
+offset_bottom = -0.0800171
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 8
+size_flags_vertical = 4
+script = ExtResource("1_ymrxb")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 73.0
+offset_top = 132.0
+offset_right = 211.0
+offset_bottom = 268.0
+icon = ExtResource("1_xs64u")
+
+[node name="TextEdit" type="TextEdit" parent="."]
+layout_mode = 0
+offset_left = 38.0
+offset_top = 28.0
+offset_right = 260.0
+offset_bottom = 105.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 455.0
+offset_top = 25.0
+offset_right = 771.0
+offset_bottom = 127.0
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="text_changed" from="TextEdit" to="." method="_on_text_edit_text_changed"]

@@ -1,0 +1,68 @@
+[gd_resource type="Theme" load_steps=11 format=3 uid="uid://c8i5xk68yki12"]
+
+[ext_resource type="FontFile" uid="uid://7nwygn2tc1wa" path="res://it_tastes_like_SPRITE_matrix/refinery-25-semi-bold-maisfontes.fbec/refinery-25-semi-bold.ttf" id="1_dp0xb"]
+[ext_resource type="Texture2D" uid="uid://53xhb4s0rog2" path="res://it_tastes_like_SPRITE_matrix/disabled.png" id="2_mfsg6"]
+[ext_resource type="Texture2D" uid="uid://qhcwh6n4lujt" path="res://it_tastes_like_SPRITE_matrix/Screenshot from 2024-05-03 10-01-19.png" id="2_mhi40"]
+[ext_resource type="Texture2D" uid="uid://xaft412exkei" path="res://it_tastes_like_SPRITE_matrix/Screenshot from 2024-05-03 10-01-50.png" id="4_8ue54"]
+
+[sub_resource type="Texture2DRD" id="Texture2DRD_nq1f1"]
+
+[sub_resource type="Texture2DRD" id="Texture2DRD_uo37q"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_04ynf"]
+texture = ExtResource("2_mfsg6")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d2u1y"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(1, 1, 1, 0.75)
+draw_center = false
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+expand_margin_left = 2.0
+expand_margin_top = 2.0
+expand_margin_right = 2.0
+expand_margin_bottom = 2.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_en1dg"]
+texture = ExtResource("4_8ue54")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_7ifdj"]
+texture = ExtResource("2_mhi40")
+
+[resource]
+CheckBox/colors/font_color = Color(0.875, 0.875, 0.875, 1)
+CheckBox/colors/font_disabled_color = Color(0.875, 0.875, 0.875, 0.5)
+CheckBox/colors/font_focus_color = Color(0.95, 0.95, 0.95, 1)
+CheckBox/colors/font_hover_color = Color(0.95, 0.95, 0.95, 1)
+CheckBox/colors/font_hover_pressed_color = Color(1, 1, 1, 1)
+CheckBox/colors/font_outline_color = Color(1, 1, 1, 1)
+CheckBox/colors/font_pressed_color = Color(1, 1, 1, 1)
+CheckBox/constants/check_v_offset = 0
+CheckBox/constants/h_separation = 4
+CheckBox/constants/outline_size = 0
+CheckBox/font_sizes/font_size = 16
+CheckBox/fonts/font = ExtResource("1_dp0xb")
+CheckBox/icons/checked = SubResource("Texture2DRD_nq1f1")
+CheckBox/icons/checked_disabled = SubResource("Texture2DRD_uo37q")
+CheckBox/icons/radio_checked = SubResource("Texture2DRD_nq1f1")
+CheckBox/icons/radio_checked_disabled = SubResource("Texture2DRD_uo37q")
+CheckBox/icons/radio_unchecked = SubResource("Texture2DRD_nq1f1")
+CheckBox/icons/radio_unchecked_disabled = SubResource("Texture2DRD_nq1f1")
+CheckBox/icons/unchecked = SubResource("Texture2DRD_nq1f1")
+CheckBox/icons/unchecked_disabled = SubResource("Texture2DRD_nq1f1")
+CheckBox/styles/disabled = SubResource("StyleBoxTexture_04ynf")
+CheckBox/styles/focus = SubResource("StyleBoxFlat_d2u1y")
+CheckBox/styles/hover = SubResource("StyleBoxTexture_en1dg")
+CheckBox/styles/hover_pressed = SubResource("StyleBoxTexture_7ifdj")
+CheckBox/styles/normal = SubResource("StyleBoxTexture_en1dg")
+CheckBox/styles/pressed = SubResource("StyleBoxTexture_7ifdj")
